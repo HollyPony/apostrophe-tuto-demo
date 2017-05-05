@@ -1,0 +1,19 @@
+{#
+  This is an example home page template. It inherits and extends a layout template
+  that lives in lib/modules/apostrophe-templates/views/outerLayout.html
+#}
+
+{% extends "apostrophe-templates:layout.html" %}
+
+{% block title %}{{ super() }} | Home{% endblock %}
+
+{% block main %}
+    <div class="main-content">{{
+        apos.area(data.page, 'navigation', {
+            widgets: {
+                'people': {},
+                'drawer': {}
+            }
+        }) }}
+    </div>
+{% endblock %}

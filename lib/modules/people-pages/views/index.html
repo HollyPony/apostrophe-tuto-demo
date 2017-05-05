@@ -1,0 +1,9 @@
+{% extends "apostrophe-templates:layout.html" %}
+{% block title %}{{ data.page.title }}{% endblock %}
+
+{% block main %}
+    <h2>People</h2>
+    <div data-apos-ajax-context="people">
+        {% include "indexAjax.html" %}
+    </div>
+{% endblock %}
