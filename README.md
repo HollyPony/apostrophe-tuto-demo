@@ -1,5 +1,7 @@
 # Apostrophe demo from Tutorials
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/HollyPony/apostrophe-tuto-demo.svg)](https://greenkeeper.io/)
+
 I'm just versionning my learnings with the Apostrophe CMS tutorials
 
 ## Install
